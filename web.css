@@ -27,7 +27,7 @@ div {
 
 .navbar a {
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -40,7 +40,7 @@ div {
     left: 0;
     width: 85%;
     padding: 20px 10%;
-    background: #50555a; 
+    background: #ffffff; 
     display: flex;
     justify-content: space-between;
     align-items: center;
