@@ -1,7 +1,6 @@
 body {
     background-image: url('skoleeeeee.jpg');
-    background-size: cover; /* Add this line */
-     /* Optional, but can help with centering */
+    background-size:cover ; /* Add this line */
 }
 
 button {
@@ -19,6 +18,9 @@ h2 {
 div {
     color: black;  
 }
+p {
+    float:unset;
+    color: white;}
 
 .logo {
     font-size: 50px;
