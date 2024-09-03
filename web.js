@@ -8,3 +8,22 @@ function scrollDown() {
     }
   }
   scrollDown();
+      /* Add this JavaScript code */
+      function parallaxScroll() {
+        if (document.body === null) {
+          console.error('document.body is null');
+          return;
+        }
+        var scrollPosition = window.scrollY;
+        if (isNaN(scrollPosition)) {
+          console.error('window.scrollY is NaN');
+          return;
+        }
+        try {
+          document.body.style.backgroundPosition = '0px ' + (scrollPosition * 0.5) + 'px';
+        } catch (e) {
+          console.error('parallaxScroll(): ' + e.message);
+        }
+      }
+      
+      window.addEventListener('scroll', parallaxScroll);

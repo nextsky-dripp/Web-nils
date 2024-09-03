@@ -1,8 +1,16 @@
 body {
     background-image: url('skoleeeeee.jpg');
     background-size:cover ; /* Add this line */
-}
 
+    background-attachment: fixed;
+    background-position: center;
+      }
+      
+      /* Optional: adjust the background position on scroll */
+body {
+    background-position: 0px 0px; /* initial position */
+      }
+      
 button {
     color: black;  
 }
@@ -20,7 +28,9 @@ div {
 }
 p {
     float:unset;
-    color: white;}
+    color: white;
+    font-size: 50px;
+}
 
 .logo {
     font-size: 50px;
@@ -51,6 +61,9 @@ p {
     z-index: 100;
     opacity: 0.8;
 }
+body {
+    padding-top: 100px; /* adjust this value to match the height of your header */
+  }
 
 img {
 width: 50%;
