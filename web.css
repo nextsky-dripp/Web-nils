@@ -20,7 +20,7 @@ div {
 
 .logo {
     font-size: 50px;
-    color: #ededed;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
@@ -45,6 +45,7 @@ div {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    opacity: 0.8;
 }
 
 img {
