@@ -1,5 +1,7 @@
 body {
     background-image: url('skoleeeeee.jpg');
+    background-size: cover; /* Add this line */
+     /* Optional, but can help with centering */
 }
 
 button {
@@ -50,5 +52,7 @@ div {
 
 img {
 width: 50%;
+
+
 
 }
