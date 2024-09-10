@@ -198,4 +198,34 @@ body {
     z-index: 100; /* Sørger for at headeren er øverst */
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Skygge for å skille header fra innholdet */
 }
+/* Container for boksene */
+.contact-containr {
+    display: flex; /* Flexbox for å plassere boksene ved siden av hverandre */
+    justify-content: center; /* Sentrer boksene horisontalt */
+    gap: 20px; /* Avstand mellom boksene */
+    margin-top: 150px; /* Juster margin for å unngå overlapping med header */
+}
+
+/* Styling for hver kontaktboks */
+#contact-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Hvit bakgrunn med 80% opasitet */
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lett skygge */
+    text-align: center;
+}
+
+/* H2-styling for boksene */
+#contact-info h2 {
+    margin-bottom: 10px;
+}
+
+/* P1-styling */
+#contact-info p1 {
+    margin: 5px 0;
+    display: block; /* Gjør p1 til block-element for bedre layout */
+}
+
+
 
