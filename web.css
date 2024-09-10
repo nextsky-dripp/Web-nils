@@ -109,7 +109,7 @@ img {
 /* Text styling inside Contact Cards */
 .info {
     font-size: 14px;
-    color: black;
+    color: #333;
 }
 
 .info p {
