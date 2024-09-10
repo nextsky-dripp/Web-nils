@@ -39,6 +39,7 @@ p {
 .navbar {
     display: flex;
     gap: 15px;
+    padding-right: 3%;
 }
 
 .navbar a {
@@ -84,7 +85,7 @@ img {
     grid-template-columns: repeat(2, 1fr); /* Creates two columns */
     gap: 20px;
     padding: 20px;
-    padding-top 100px;
+    padding-top: 100px;
 }
 
 /* Contact Cards Styling */
@@ -95,7 +96,7 @@ img {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    opacity: 0.9; /* Slight transparency for better visibility on background */
+    opacity: 0.9; 
 }
 
 /* Circle in Contact Cards */
@@ -142,15 +143,6 @@ img {
     background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
     color: rgb(4, 4, 38);
   }
-  #contact-info {
-    background-color: rgba(255, 255, 255, 0.8); /* Hvit bakgrunn med 80% opasitet */
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px; /* Bredde på boksen */
-    border-radius: 10px; /* Runde hjørner */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lett skygge for å få boksen til å "poppe" */
-    text-align: center;
-}
 
 #contact-info h2 {
     margin-bottom: 10px;
@@ -176,6 +168,7 @@ body {
 
 /* Styling av kontaktboksen */
 #contact-info {
+    
     background-color: rgba(255, 255, 255, 0.8); /* Hvit bakgrunn med 80% opasitet */
     padding: 20px;
     margin: 150px auto; /* Økt top-margin for å gi plass til header */
@@ -183,6 +176,8 @@ body {
     border-radius: 10px; /* Runde hjørner */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lett skygge for å få boksen til å "poppe" */
     text-align: center;
+    display: inline-block;
+
 }
 
 /* Header-styling */
@@ -227,6 +222,3 @@ body {
     margin: 5px 0;
     display: block; /* Gjør p1 til block-element for bedre layout */
 }
-
-
-
