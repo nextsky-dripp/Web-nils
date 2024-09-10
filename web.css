@@ -24,6 +24,9 @@ p {
     color: white;
     font-size: 50px;
 }
+p {
+    color: #000000;
+}
 
 .logo {
     font-size: 50px;
@@ -138,3 +141,61 @@ img {
     background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
     color: rgb(4, 4, 38);
   }
+  #contact-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Hvit bakgrunn med 80% opasitet */
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px; /* Bredde på boksen */
+    border-radius: 10px; /* Runde hjørner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lett skygge for å få boksen til å "poppe" */
+    text-align: center;
+}
+
+#contact-info h2 {
+    margin-bottom: 10px;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+body {
+    background-image: url('skoleeeeee.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 100px; /* Tilpass denne verdien til høyden på din header */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Juster bakgrunnsposisjonen ved scrolling */
+body {
+    background-position: 0px 0px;
+}
+
+/* Styling av kontaktboksen */
+#contact-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Hvit bakgrunn med 80% opasitet */
+    padding: 20px;
+    margin: 150px auto; /* Økt top-margin for å gi plass til header */
+    width: 300px; /* Bredde på boksen */
+    border-radius: 10px; /* Runde hjørner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lett skygge for å få boksen til å "poppe" */
+    text-align: center;
+}
+
+/* Header-styling */
+.heder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 97%; /* Full bredde */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Transparent hvit bakgrunn */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; /* Sørger for at headeren er øverst */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Skygge for å skille header fra innholdet */
+}
+
