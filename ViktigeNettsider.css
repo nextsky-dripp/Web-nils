@@ -1,6 +1,6 @@
 body {
     background-image: url('skoleeeeee.jpg');
-    background-size:cover ; /* Add this line */
+    background-size:cover ;
 
     background-attachment: fixed;
     background-position: center;
@@ -90,7 +90,5 @@ body {
 
 img {
 width: 50%;
-
-
 
 }
