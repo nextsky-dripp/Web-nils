@@ -82,6 +82,7 @@ img {
 /* Contact Cards Container */
 .container {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr); /* Creates two columns */
     gap: 20px;
     padding: 20px;
