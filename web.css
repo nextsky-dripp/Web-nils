@@ -253,3 +253,9 @@ body {
     display: block; /* Gjør p1 til block-element for bedre layout */
 }
 
+.float-left {
+    float: left;
+    margin-right: 15px; /* Optional, to add some space between the text and image */
+    margin-bottom: 15px; /* Optional, for spacing below */
+}
+
