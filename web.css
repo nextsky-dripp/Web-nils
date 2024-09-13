@@ -85,6 +85,7 @@ img {
 /* Contact Cards Container */
 .container {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr); /* Creates two columns */
     gap: 20px;
     padding: 20px;
@@ -203,6 +204,7 @@ body {
     justify-content: center; /* Sentrer boksene horisontalt */
     gap: 20px; /* Avstand mellom boksene */
     margin-top: 150px; /* Juster margin for å unngå overlapping med header */
+    
 }
 
 /* Styling for hver kontaktboks */
@@ -225,3 +227,38 @@ body {
     margin: 5px 0;
     display: block; /* Gjør p1 til block-element for bedre layout */
 }
+/* New Boxes */
+.contact-containr2 {
+    display: flex; /* Flexbox for å plassere boksene ved siden av hverandre */
+    justify-content: center; /* Sentrer boksene horisontalt */
+    gap: 20px; /* Avstand mellom boksene */
+    margin-top: 150px; /* Juster margin for å unngå overlapping med header */
+}
+
+/* Styling for hver kontaktboks */
+#contact-info2 {
+    background-color: rgba(255, 255, 255, 0.8); /* Hvit bakgrunn med 80% opasitet */
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Lett skygge */
+    text-align: center;
+}
+
+/* H2-styling for boksene */
+#contact-info2 h2 {
+    margin-bottom: 10px;
+}
+
+/* P1-styling */
+#contact-info2 p1 {
+    margin: 5px 0;
+    display: block; /* Gjør p1 til block-element for bedre layout */
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px; /* Optional, to add some space between the text and image */
+    margin-bottom: 15px; /* Optional, for spacing below */
+}
+
